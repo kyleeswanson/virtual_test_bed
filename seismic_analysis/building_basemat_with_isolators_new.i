@@ -1,7 +1,7 @@
 [Mesh]
   [mesh_gen]
     type = FileMeshGenerator
-    file = full_structure_with_isolators_new.e
+    file = mesh/full_structure_with_isolators_new.e
   []
 []
 

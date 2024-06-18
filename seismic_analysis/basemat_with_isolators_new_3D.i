@@ -1,7 +1,7 @@
 [Mesh]
   [mesh_gen]
     type = FileMeshGenerator
-    file = basemat_with_isolators_new.e
+    file = mesh/basemat_with_isolators_new.e
   []
 []
 
@@ -121,7 +121,7 @@
     block = 'upper_basemat'
     hht_alpha = -0.05
     static_initialization = true
-    stiffness_damping_coefficient = 0.0019
+    stite ffness_damping_coefficient = 0.0019
     []
 []
 

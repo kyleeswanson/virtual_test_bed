@@ -1,7 +1,7 @@
 [Mesh]
   [mesh_gen]
     type = FileMeshGenerator
-    file = basemat_with_isolators_new.e
+    file = mesh/basemat_with_isolators_new.e
   []
 []
 
