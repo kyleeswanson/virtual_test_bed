@@ -8,7 +8,6 @@
 [Variables]
   [disp_x]
   []
-  [disp_y]
   []
   [disp_z]
   []

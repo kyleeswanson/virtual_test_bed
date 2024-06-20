@@ -719,7 +719,6 @@
     regularize_dt = 0.01
     damping_ratio = 0.05
     start_frequency = 0.1
-    end_frequency = 50
     outputs = out1
   []
 []
