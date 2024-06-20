@@ -116,7 +116,7 @@
 [Physics/SolidMechanics/Dynamic]
     displacements = 'disp_x disp_y disp_z'
     [all]
-    strain = FINITE 
+    strain = FINITE
     displacements = 'disp_x disp_y disp_z'
     block = 'upper_basemat'
     hht_alpha = -0.05
