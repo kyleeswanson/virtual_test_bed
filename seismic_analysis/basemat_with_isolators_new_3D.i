@@ -8,6 +8,7 @@
 [Variables]
   [disp_x]
   []
+  [disp_y]
   []
   [disp_z]
   []
@@ -115,12 +116,12 @@
 [Physics/SolidMechanics/Dynamic]
     displacements = 'disp_x disp_y disp_z'
     [all]
-    strain = FINITE
-    displacements = 'disp_x disp_y disp_z'
-    block = 'upper_basemat'
-    hht_alpha = -0.05
-    static_initialization = true
-    stite ffness_damping_coefficient = 0.0019
+      strain = FINITE
+      displacements = 'disp_x disp_y disp_z'
+      block = 'upper_basemat'
+      hht_alpha = -0.05
+      static_initialization = true
+      stite ffness_damping_coefficient = 0.0019
     []
 []
 
