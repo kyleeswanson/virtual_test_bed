@@ -4,11 +4,11 @@ This model was adopted from the list of examples on the [MASTODON](https://moose
 
 !tag name=Seismic Analysis Model pairs=reactor_type:MSR
                        reactor:generic_msr
-                       geometry:
+                       geometry:reactor_building
                        codes_used:MASTODON
-                       computing_needs:
-                       fiscal_year:
-                       sponsor:
+                       computing_needs:HPC
+                       fiscal_year:2021
+                       sponsor:DOE Office of Technology Transitions (OTT)
                        institution:INL
                        simulation_type:seismic analysis
 

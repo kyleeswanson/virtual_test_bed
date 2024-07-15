@@ -2,6 +2,16 @@
 
 This model was adopted from the list of examples on the [MASTODON](https://mooseframework.inl.gov/mastodon/examples/index.html) website. The inputs can be found [here](https://github.com/idaholab/virtual_test_bed/tree/devel/msr/msr_generic/seismic_analysis).
 
+!tag name=Seismic Analysis Model pairs=reactor_type:MSR
+                       reactor:generic_msr
+                       geometry:reactor_building
+                       codes_used:MASTODON
+                       computing_needs:HPC
+                       fiscal_year:2021
+                       sponsor:DOE Office of Technology Transitions (OTT)
+                       institution:INL
+                       simulation_type:seismic analysis
+
 !alert note title=Units of this model
 GN, GPa, m, and sec
 
